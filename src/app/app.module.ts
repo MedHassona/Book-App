@@ -22,7 +22,7 @@ const appRoutes: Routes = [
   {path: 'auth/signup', component: SignupComponent},
   {path: 'books',canActivate: [AuthGuardService], component: BookListComponent},
   {path: 'books/new',canActivate: [AuthGuardService], component: BookFormComponent},
-  {path: 'book/vew/:id',canActivate: [AuthGuardService], component: SingleBookComponent}
+  {path: 'book/view/:id',canActivate: [AuthGuardService], component: SingleBookComponent}
 ];
 
 

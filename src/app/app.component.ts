@@ -19,6 +19,4 @@ export class AppComponent {
     };
     firebase.initializeApp(config);
   }
-
-  title = 'app';
 }
